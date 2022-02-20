@@ -4,12 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://priceless-darwin-f47555.netlify.app/main.css">
+    <link rel="stylesheet" href="/styles/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jotter</title>
 </head>
 <body>
-    <div class="container">
-        <p>Lets jot with Jotter</p>
-    </div>
+    <div class="grid-container">
+        <div class="box1">
+            <nav class="navigation">
+                <div class="nav-bar">
+                        <span>Jotter</span>
+                        <a class="link link-active badge-notification" href="/">
+                                <i class="fa fa-heart-o"></i>
+                        </a>
+                        <a class="link badge-notification" href="/">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+            </div>
+            </nav>
+        </div>
+
+        <div class="filter-area">
+            Filter by
+            <br><br>
+            <div class="price">
+                <p>Price:</p>
+                <input type="range" min="50" max="500" class="slider" oninput="num.value = this.value">
+                <output id="num">100</output>
+                <br><br><br>
+
+                <p>Types:</p>
+                <input type="checkbox" name="stationery">
+                <label for="stationery"> Stationery</label><br>
+                <input type="checkbox" name="artsAndCrafts">
+                <label for="artsAndCrafts"> Arts & crafts</label><br><br><br>
+                <p>Ratings:</p>
+                <div class="rating rating-sm">
+                    <input type="checkbox" value="one">
+                    <span class="fa fa-star checked"></span><br>
+                    <input type="checkbox" value="two">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span><br>
+                    <input type="checkbox" value="three">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span><br>
+                    <input type="checkbox" value="four">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span><br>
+                    <input type="checkbox" value="five">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span><br>
+                </div> <br><br><br>
+            </div>  
+        </div>
+        
+        <div class="box2"> 
+            <div class=" card">
+                <img src="/images/sticky_notes.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Sticky Notes &#8377 100</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+        
+            <div class=" card">
+                <img src="/images/Notepads.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Notepads &#8377 200</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>         
+        
+            <div class=" card">
+                <img src="/images/desk-organiser.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Desk organiser &#8377 300</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+        
+       
+            <div class=" card card-badges">
+                <img src="/images/paper_clip.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Paper clips &#8377 50</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+        
+        
+            <div class=" card ">
+                <img src="/images/markers.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Markers &#8377 50</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+        
+            <div class=" card disabled">
+                <img src="/images/ink_cartridges.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Ink Cartridges &#8377 500 - <span class="red-txt">Out of stock</span></h5>
+                    <p class="card-text right-txt">
+                        
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class=" card">
+                <img src="/images/paper_tape.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Paper tape &#8377 100</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+            <div class=" card">
+                <img src="/images/paint.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Acrylic paints and brushes &#8377 500</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class=" card disabled">
+                <img src="/images/homepage_images.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Color pencils &#8377 90 - <span class="red-txt">Out of stock</span></h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+            <div class=" card">
+                <img src="/images/paint-brushes.jpg" alt="nature-image" class="card-img">
+                <div class="card-content">
+                    <h5 class="card-title">Paint brush collection &#8377 300</h5>
+                    <p class="card-text right-txt">
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-share-alt"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+            
+    
+        <div class="box3">
+            <footer class="footer">
+                <ul class="list-non-bullet">
+                    <li class="list-item-inline">
+                        <a class="link" href="https://github.com/sharmivijay"><img class="icons" src="https://priceless-darwin-f47555.netlify.app/images/github.svg"></a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.instagram.com/sharmi_vijay18/"><img class="icons" src="https://priceless-darwin-f47555.netlify.app/images/instagram.svg"></a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://twitter.com/sharmi_vijay18"><img class="icons" src="https://priceless-darwin-f47555.netlify.app/images/twitter.svg"></a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.linkedin.com/in/sharmila-gnanasambandam-18a7a0148"><img class="icons" src="https://priceless-darwin-f47555.netlify.app/images/linkedin.svg"></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
 </body>
 </html>
