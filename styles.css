@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(217, 243, 166);
+}
+.container{
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 30%;
+  left: 40%;
+}
+
+.btn{
+    font-size: var(--md-text);
+}
