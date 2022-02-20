@@ -1,5 +1,6 @@
+@import '/styles/variables.css';
 body{
-    background-color: rgb(217, 243, 166);
+    background-color: var(--theme-bg);
 }
 .container{
   align-items: center;
