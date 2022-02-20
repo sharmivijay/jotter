@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+}
+.box1{ grid-area: header; }
+.box2{ 
+    grid-area: box2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem; }
+.box3 { grid-area: footer; }
+
+.navigation{
+    width: 98.8%;
+    padding: 0.5rem;
+    position: static; 
+    background-color: yellowgreen;
+}
+
+.nav-bar a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    left: 70rem;
+}
+
+
+.footer{
+    width: 99.5%;
+    position: static;
+    margin-bottom: 0%;
+    background-color: yellowgreen;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'box2 box2 box2 box2 box2 box2'
+    'footer footer footer footer footer footer';
+  gap: 1rem;
+  margin-bottom: 0%;
+  background-color: var(--success-green);
+}
+
+
+.responsive-img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
+}
+
+.opacity-img:hover{
+    opacity: 0.5;
+}
+
+.card{
+    width: 90%;
+}
+
+.card-badges::after{
+    content:'New arrival';
+}
+
+.card-text i{
+    padding: 0.5rem;
+}
+
+.disabled
+{
+    cursor:no-drop;
+    opacity: 0.5; 
+}
+.red-txt{
+    color: var(--red-default);
+}
+.fa-heart{
+    color: var(--red-default);
+}
