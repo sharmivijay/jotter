@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+.header{ grid-area: header; }
+.main{ 
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem; }
+.footer { grid-area: footer; }
+
+.navigation{
+    width: 98.8%;
+    padding: 0.5rem;
+    position: static; 
+    background-color: yellowgreen;
+}
+
+.nav-bar a{
+    padding: 1rem;
+    position: relative;
+    left: 70rem;
+}
+
+.footer{
+    width: 99.5%;
+    position: static;
+    margin-bottom: 0%;
+    background-color: yellowgreen;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  gap: 1rem;
+  margin-bottom: 0%;
+  background-color: var(--success-green);
+}
+
+
+.responsive-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
+}
+
+.card{
+    width: 90%;
+}
+
+.card-badges::after{
+    content:'New arrival';
+}
+
+.card-text i{
+    padding: 0.5rem;
+}
+
+.fa-heart{
+    color: var(--red-default);
+}
