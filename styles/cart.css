@@ -16,10 +16,7 @@ gap: 1rem; }
 }
 
 .nav-bar a{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     position: relative;
     left: 70rem;
 }
@@ -34,9 +31,9 @@ gap: 1rem; }
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'box2 box2 box2 box2 box2 box2'
-    'footer footer footer footer footer footer';
+    'header'
+    'box2'
+    'footer';
   gap: 6rem;
   margin-bottom: 0%;
   background-color: var(--success-green);
